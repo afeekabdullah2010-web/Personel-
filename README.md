@@ -32,3 +32,11 @@ All pages share `style.css` and `script.js`, with active navigation, a mobile me
 ## Design
 
 Black and purple developer portfolio inspired by the supplied reference layout, with an original implementation. The home page includes owner-specific services, experience, education, skill tiles, and contact links. No sample client statistics or testimonials are used.
+
+## Interaction features
+
+- First visit in each tab session shows a five-second black Loading screen. Subsequent page navigation skips it. Without JavaScript, content remains available.
+- Sections fade in and out as they enter and leave the viewport. Reduced-motion preferences disable these effects.
+- Social links use inline SVG icons. Facebook and LinkedIn names remain unlinked until exact profile URLs are supplied.
+- Online Presence includes a Hire Me email link.
+- Say hello opens an accessible portfolio assistant dialog. This is a local, rule-based guide, not live AI and not direct messaging with the owner. Messages are not transmitted or stored. Visitors can email the owner directly. A real AI assistant would require a separately configured server-side API; never embed API secrets in client files.
