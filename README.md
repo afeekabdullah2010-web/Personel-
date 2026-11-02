@@ -28,3 +28,7 @@ Edit text and links in `index.html`, and colors in `style.css`. `script.js` upda
 - `contact.html`: Contact information and social profiles
 
 All pages share `style.css` and `script.js`, with active navigation, a mobile menu, and keyboard-accessible navigation. Deploy the complete directory so relative page and asset links continue to work.
+
+## Design
+
+Black and purple developer portfolio inspired by the supplied reference layout, with an original implementation. The home page includes owner-specific services, experience, education, skill tiles, and contact links. No sample client statistics or testimonials are used.
