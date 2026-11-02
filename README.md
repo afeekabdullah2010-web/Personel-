@@ -42,3 +42,9 @@ Black and purple developer portfolio inspired by the supplied reference layout, 
 - Say hello opens an accessible portfolio assistant dialog. This is a local, rule-based guide, not live AI and not direct messaging with the owner. Messages are not transmitted or stored. Visitors can email the owner directly. A real AI assistant would require a separately configured server-side API; never embed API secrets in client files.
 
 `mine.html` is the owner's explicitly public personal gallery, linked from all nine pages. It currently uses the supplied portrait; no additional photo files were present in GitHub main during this update. The developer watermark is `{0x1337}` and footer spacing is compact on desktop and mobile.
+
+## Deploy to Netlify
+
+Import `afeekabdullah2010-web/Personel-` from GitHub, choose branch `main`, leave base directory and build command empty, and use `.` as the publish directory. `netlify.toml` includes the publish directory and response headers. No environment variables, package installation, or build command are needed.
+
+For manual deployment, extract the ZIP and upload the `Personel-` folder containing `index.html` directly. Do not upload the outer directory containing only the `Personel-` folder. After deployment verify the Home page, a direct `/mine.html` request, the mobile menu, and Say hello. The portfolio assistant is local and does not deliver messages; email and phone links open the visitor's installed apps. Mine is public. Google Fonts is optional; system fonts work without it. Existing external social/Netlify profile destinations must be maintained by the owner.
