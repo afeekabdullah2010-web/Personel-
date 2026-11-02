@@ -41,7 +41,7 @@ Black and purple developer portfolio inspired by the supplied reference layout, 
 - Online Presence includes a Hire Me email link.
 - Say hello opens an accessible portfolio assistant dialog. This is a local, rule-based guide, not live AI and not direct messaging with the owner. Messages are not transmitted or stored. Visitors can email the owner directly. A real AI assistant would require a separately configured server-side API; never embed API secrets in client files.
 
-`mine.html` is the owner's explicitly public personal gallery, linked from all nine pages. It currently uses the supplied portrait; no additional photo files were present in GitHub main during this update. The developer watermark is `{0x1337}` and footer spacing is compact on desktop and mobile.
+`mine.html` is the owner's explicitly public personal gallery, linked from all nine pages. It currently uses the supplied portrait; no additional photo files were present in GitHub main during this update. The developer watermark is `0x1337` and footer spacing is compact on desktop and mobile.
 
 ## Deploy to Netlify
 
